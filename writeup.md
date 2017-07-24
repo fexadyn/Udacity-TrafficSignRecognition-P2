@@ -55,13 +55,9 @@ Next, I used histogram visualization to understand the distribution of each clas
 
 ### Design and Test a Model Architecture
 
-#### 1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, and provide example images of the additional data. Then describe the characteristics of the augmented training set like number of images in the set, number of images for each class, etc.)
+#### 1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc.
 
-As a first step, I decided to convert images into grayscale. Next, I normalized the data to descrease the effects of different illumination. 
-
-Here is the example after grayscale conversion and normalization steps.
-
-![alt text][norm]
+As a first step, I decided to convert images into grayscale. Next, I normalized the data to decrease the effects of different illumination conditions.
 
 As a last but not least, I decided to generate additional data because I noticed that some classes are overrepresented with a lot of number samples and some classes underrepresented with a small number of samples. I used augmentation technique which generates randomly distorted the images in the underrepresented classes until the number of samples in each class reaches average number of samples for each class in the dataset. After the augmentation step, underrespesented classes have more number of samples as can be seen in the histogram plot below:
 
