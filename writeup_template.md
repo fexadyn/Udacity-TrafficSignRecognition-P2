@@ -12,21 +12,20 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1a]: ./report_materials/visualization.jpg "Visualization"
-[german1]: ./report_materials/german1.jpg ""
-[german2]: ./report_materials/german2.jpg ""
-[german3]: ./report_materials/german3.jpg ""
-[german4]: ./report_materials/german4.jpg ""
-[german5]: ./report_materials/german5.jpg ""
-[test_german1]: ./report_materials/test_german1.jpg ""
-[test_german2]: ./report_materials/test_german2.jpg ""
-[test_german3]: ./report_materials/test_german3.jpg ""
-[test_german4]: ./report_materials/test_german4.jpg ""
-[test_german5]: ./report_materials/test_german5.jpg ""
-[stats]: ./report_materials/stats.jpg ""
-[stats_org]: ./report_materials/stats.jpg ""
-[norm]: ./report_materials/norm.jpg ""
-[samples]: ./report_materials/samples.jpg ""
+[german1]: ./report_materials/german1.png ""
+[german2]: ./report_materials/german2.png ""
+[german3]: ./report_materials/german3.png ""
+[german4]: ./report_materials/german4.png ""
+[german5]: ./report_materials/german5.png ""
+[test_german1]: ./report_materials/test_german1.png ""
+[test_german2]: ./report_materials/test_german2.png ""
+[test_german3]: ./report_materials/test_german3.png ""
+[test_german4]: ./report_materials/test_german4.png ""
+[test_german5]: ./report_materials/test_german5.png ""
+[stats]: ./report_materials/stats.png ""
+[stats_org]: ./report_materials/stats.png ""
+[norm]: ./report_materials/norm.png ""
+[samples]: ./report_materials/samples.png ""
 
 ## Rubric Points
 ###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
