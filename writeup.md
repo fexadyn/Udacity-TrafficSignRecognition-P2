@@ -48,10 +48,8 @@ Here is an exploratory visualization of the data set. First, I visualized random
 
 ![alt text][samples]
 
-Next, I used histogram visualization to understand the distribution of each class in training, validation and test dataset. In the original distribution, it is very easy to see number of samples in each class is not distributed equally. 
+Next, I used histogram visualization to understand the distribution of each class in training, validation and test dataset. In the original distribution, it is very easy to see the number of samples in each class is not distributed equally. 
 
-
-As this might cause a bias in the training process, I used augmentation techniques to increase the number of samples in underrepresented classes. You can see the distribution after the augmentation in the same chart below:
 
 ![alt text][stats_org]
 
